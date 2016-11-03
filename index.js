@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom');
 const CoordinatesButton = require('./components/CoordinatesButton');
 const DelayedButton = require('./components/DelayedButton');
 const findCoordinates = (xy) => { console.log(xy) }
-var delay = Math.floor((Math.random() * 1000) + 1);
+const delay = Math.floor((Math.random() * 1000) + 1);
 
 ReactDOM.render(
   <div>
